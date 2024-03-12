@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Form Layout</title>
+</head>
+<body>
+    <form action="#" method="post" style="max-width: 400px; margin: 20px auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px;">
+        <div style="margin-bottom: 15px;">
+            <input type="text" name="fullname" placeholder="Full Name" required style="width: 100%; padding: 10px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+            <input type="email" name="email" placeholder="Email" required style="width: 100%; padding: 10px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+            <input type="password" name="password" placeholder="Password (min 8 characters)" minlength="8" required style="width: 100%; padding: 10px;">
+        </div>
+        <fieldset style="border: none; padding: 0; margin: 0 0 15px;">
+            <legend>Referrer</legend>
+            <div>
+                <input type="radio" name="referrer" id="tv" value="TV">
+                <label for="tv">TV</label>
+            </div>
+            <div>
+                <input type="radio" name="referrer" id="internet" value="Internet">
+                <label for="internet">Internet</label>
+            </div>
+            <div>
+                <input type="radio" name="referrer" id="none" value="None" checked>
+                <label for="none">None</label>
+            </div>
+        </fieldset>
+        <div style="margin-bottom: 15px;">
+            <input type="checkbox" name="terms" id="terms" required>
+            <label for="terms">I accept the terms of service</label>
+        </div>
+        <div>
+            <button type="submit" style="width: 100%; padding: 10px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">Register</button>
+        </div>
+    </form>
+</body>
+</html>

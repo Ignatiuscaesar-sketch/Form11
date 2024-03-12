@@ -1,0 +1,12 @@
+.registration-form label,
+.registration-form input,
+.registration-form .referrer-fieldset,
+.registration-form .terms-container {
+    display: block;
+    margin-bottom: 10px; /* Adjust spacing as needed */
+}
+
+.referrer-fieldset div,
+.terms-container {
+    margin-left: 20px; /* Adjust indentation as needed */
+}
